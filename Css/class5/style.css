@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .parent {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    border: 1px solid;
+} */
+
+/* .child {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(127, 11, 11);
+    border: 2px solid rgb(0, 183, 255);
+    margin: 0 auto; */
+/* transform: rotate(270deg); */
+/* transform: skew(20deg); */
+/* 
+
+} */
+
+/* .child:hover {
+    transform: scale(2);
+} */
+
+
+
+/* Animations  */
+.item {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    border: 1px solid;
+}
+
+.item-child {
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 50%;
+    position: relative;
+    /* animation-name: Jagmohan;
+   animation-duration: 10s;
+   animation-timing-function: ease;
+   animation-iteration-count: 3;
+  animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: jagmohan 4s;
+    animation-iteration-count: 4;
+    /* animation-direction: alternate-reverse; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes jagmohan {
+
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 50%
+    }
+
+    /* 50% {
+        top: 50%;
+        left: 50%
+    }
+
+    75% {
+        top: 50%;
+        left: 0%
+    }
+
+    100%{
+        top: 0;
+        left: 0;
+    } */
+}
+
+/* 
+#para {
+    animation: mohan 4s;
+    animation-iteration-count: 4; */
+/* animation-direction: alternate-reverse; */
+/* animation-fill-mode: forwards;
+    position: relative;
+} */
+
+/* @keyframes mohan {
+
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 50%
+    }
+} */
+
+.skew {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    animation-name: mk;
+    animation-duration: 3s;
+    margin: 0 auto;
+    margin-top: 4em;
+    border: 2px solid red;
+
+}
+
+.skew:hover {
+    animation-name: mk;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.15, 0.60, 0.10, 1.00);
+    animation-iteration-count: infinite;
+    border-radius: 10px 0px 10px 0px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    box-shadow:
+        0 0 30px rgba(255, 0, 150, 0.6),
+        0 0 60px rgba(0, 150, 255, 0.5);
+}
+
+@keyframes mk {
+    0% {
+        transform: skew(10deg);
+    }
+}

@@ -1,0 +1,64 @@
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .user-card {
+    background: #ffffff;
+    width: 300px;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .user-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+  }
+
+  .avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    font-weight: bold;
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .role {
+    font-size: 14px;
+    color: #777;
+    margin: 6px 0 16px;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+
+  .button:hover {
+    background: #5a67d8;
+  }
