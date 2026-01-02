@@ -1,0 +1,61 @@
+
+
+
+
+
+
+import { useState } from "react"
+
+ function App() {
+
+  const [name, setName] =useState('Gourav');
+  // setName("Hii")
+  function changeName(){
+    setName("Hii")
+  }
+  return (
+    <div>
+      <p>{name}</p>
+      <button onClick={()=>changeName()}>changeName</button>
+
+    </div>
+  )
+}
+export default App
+
+
+
+
+
+
+
+
+
+
+
+import { useState } from "react"
+
+function App() {
+
+  const [name, setName] = useState('Medicaps');
+  const [address, setAddress] = useState('Indore');
+  const [clgType, setclgType] = useState('Private');
+  const [fees, setfees] = useState(1100000);
+  function changeCollageInfo() {
+    setName("IPS ")
+    setAddress("Indore, vijay nagar")
+    setclgType("private ++ ")
+    setfees(9000000)
+  }
+  return (
+    <div>
+      <p>Collage Name:<b>{name}</b></p>
+      <p>Address:<b>{address}</b></p>
+      <p> Collage Type:<b>{clgType}</b></p>
+      <p>Fees:<b>{fees}</b></p>
+      <button onClick={() => changeCollageInfo()}>change collage Details</button>
+
+    </div>
+  )
+}
+export default App
