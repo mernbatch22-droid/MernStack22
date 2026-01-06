@@ -1,0 +1,253 @@
+.connnn {
+  width: 100%;
+
+}
+
+.product-grid {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2em;
+
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+
+.prevBtn,
+.nextBtn {
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Spacing */
+.prevBtn {
+  margin-right: 6px;
+}
+
+.nextBtn {
+  margin-left: 60px;
+}
+
+/* Hover effect */
+.prevBtn:hover,
+.nextBtn:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
+
+/* Active (current page or clicked) */
+.prevBtn:active,
+.nextBtn:active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+/* Disabled state */
+.prevBtn:disabled,
+.nextBtn:disabled {
+  background-color: #e9ecef;
+  color: #aaa;
+  cursor: not-allowed;
+  border-color: #ddd;
+}
+
+
+
+
+.mapBth {
+
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 5px;
+}
+
+
+.pagination-ccc {
+
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2em;
+
+}
+
+.pagination {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  column-gap: 10px;
+  row-gap: 4px;
+  margin: 0 auto;
+
+}
+
+.stBtn {
+  width: 10%;
+
+}
+
+.endBtn {
+  width: 10%;
+ 
+}
+
+.cenTerBtn {
+  width: 80%;
+
+  margin: 0 auto;
+}
+
+.pag {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-right:10px ;
+}
+
+
+/* Dark theme pagination button */
+.pag {
+  background-color: #1f1f1f;
+  color: #eaeaea;
+  border: 1px solid #333;
+  padding: 8px 14px;
+  margin: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.1s ease,
+    box-shadow 0.1s ease;
+}
+
+/* Hover effect */
+.pag:hover {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+}
+
+/* Active (clicked) effect */
+.pag:active {
+  transform: scale(0.95);
+  background-color: #333;
+}
+
+/* Optional: active/current page style */
+.pag.active {
+  background-color: #4f46e5; /* accent color */
+  color: #ffffff;
+  border-color: #4f46e5;
+}
+
+
+/* =======================
+   DARK THEME LAYOUT
+   ======================= */
+
+.dark .connnn {
+  background-color: #0f172a;
+}
+
+/* Product grid */
+.dark .product-grid {
+  background-color: transparent;
+}
+
+/* =======================
+   PAGINATION BUTTONS
+   ======================= */
+
+.dark .prevBtn,
+.dark .nextBtn {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+}
+
+/* Hover */
+.dark .prevBtn:hover,
+.dark .nextBtn:hover {
+  background-color: #374151;
+  border-color: #4b5563;
+}
+
+/* Active */
+.dark .prevBtn:active,
+.dark .nextBtn:active {
+  background-color: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+}
+
+/* Disabled */
+.dark .prevBtn:disabled,
+.dark .nextBtn:disabled {
+  background-color: #111827;
+  color: #6b7280;
+  border-color: #1f2937;
+  cursor: not-allowed;
+}
+
+/* =======================
+   PAGINATION CONTAINER
+   ======================= */
+
+.dark .pagination-ccc {
+  background-color: transparent;
+}
+
+.dark .pagination {
+  background-color: transparent;
+}
+
+/* =======================
+   PAGE NUMBER BUTTONS
+   ======================= */
+
+.dark .pag {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+}
+
+/* Hover */
+.dark .pag:hover {
+  background-color: #374151;
+  color: #ffffff;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.08);
+}
+
+/* Active click */
+.dark .pag:active {
+  background-color: #4b5563;
+  transform: scale(0.95);
+}
+
+/* Current page */
+.dark .pag.active {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border-color: #4f46e5;
+}
+
+/* =======================
+   SPACING BUTTON GROUPS
+   ======================= */
+
+.dark .stBtn,
+.dark .endBtn,
+.dark .cenTerBtn {
+  background-color: transparent;
+}
