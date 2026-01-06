@@ -1,1 +1,0 @@
-what is state, props , stateless, state active and statemanagement?
