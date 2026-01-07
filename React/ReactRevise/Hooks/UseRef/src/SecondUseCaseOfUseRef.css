@@ -1,0 +1,72 @@
+.sakal {
+    width: 100%;
+}
+
+.Face {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(244, 153, 168);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+.leftEye {
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    position: absolute;
+    background-color: black;
+    left: 2em;
+    top: 2em;
+}
+
+.RightEye {
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    position: absolute;
+    background-color: black;
+    left: 5.6em;
+    top: 2em;
+}
+
+.nose {
+    height: 20px;
+    width: 4px;
+    background-color: black;
+
+    position: absolute;
+    left: 4.3em;
+    top: 4em;
+}
+
+.lip {
+    height: 20px;
+    width: 40px;
+    background-color: rgb(236, 27, 27);
+    position: absolute;
+    left: 3.2em;
+    top: 6em;
+    border-radius: 90%
+}
+
+.tongue {
+    height: 20px;
+    width: 10px;
+     position: absolute;
+    left: 1em;
+    top: 0.6em;
+    background-color: rgb(27, 25, 25);
+}
+
+.wrapper{
+    width: 100%;
+}
+.btn-container{
+    width: 16%;
+
+     margin:  0 auto;
+     margin-top: 2em;
+}
