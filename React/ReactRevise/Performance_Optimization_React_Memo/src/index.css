@@ -1,0 +1,16 @@
+.app{
+    width: 400px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+button{
+    background-color: yellow;
+    width: 150px;
+  
+    font-size: 28px;
+}
